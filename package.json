@@ -1,0 +1,21 @@
+{
+    "name": "opulent-theme",
+    "displayName": "Opulent Theme",
+    "description": "A VS Code theme for coding on a sun-kissed beach in Persia. 🐘 ",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Opulent",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Opulent-color-theme.json"
+            }
+        ]
+    }
+}
