@@ -1,8 +1,14 @@
 {
-    "name": "opulent-theme",
-    "displayName": "Opulent Theme",
-    "description": "A VS Code theme for coding on a sun-kissed beach in Persia. 🐘 ",
+    "name": "margarita-theme",
+    "displayName": "Margarita Theme",
+    "description": "A VS Code dark theme inspired by purple margarita",
     "version": "0.0.1",
+    "publisher": "s1gm4f",
+    "icon": "img/marg-pixel-2.png",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/s1gm4f/margarita-theme"
+    },
     "engines": {
         "vscode": "^1.45.0"
     },
@@ -12,10 +18,11 @@
     "contributes": {
         "themes": [
             {
-                "label": "Opulent",
+                "label": "margarita",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Opulent-color-theme.json"
+                "path": "./themes/margarita-dark-purple.json"
             }
         ]
     }
+   
 }
